@@ -1,0 +1,4 @@
+（1）定义为字符型
+（2）先char c1,c2;在用printf("%c%c",c1,c2);或者putchar(c1);来进行输出
+                                                                       putchar(c2);
+（3）等价
