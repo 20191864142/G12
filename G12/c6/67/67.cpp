@@ -6,7 +6,7 @@ void main(void)
 	int i,j,k,n,p=1;
   while(p==1)
   {  
-	  printf("ÇëÊäÈëÒ»¸öÆæÊýn(1µ½15Ö®ÄÚ):");  
+	  printf("è¯·è¾“å…¥ä¸€ä¸ªå¥‡æ•°n(1åˆ°15ä¹‹å†…):");  
 	  scanf("%d",&n); 
 	  if((n>0) && (n<=15) && (n%2!=0))  
 		  j=n/2; 
@@ -26,9 +26,9 @@ void main(void)
 			  a[++i][j]=++k;  
 	  } 
 	  }
-	  printf("Ä§·½Õó£º/n"); 
+	  printf("é­”æ–¹é˜µï¼š\n"); 
 	  for (i=0;i<n;i++) 
 	  {  for(j=0;j<n;j++) 
 	  {   printf("%4d",a[i][j]);  }
-	  printf("/n"); } printf("/n");
+	  printf("\n"); } printf("\n");
 }
